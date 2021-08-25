@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header__logo {
   font-family: "shrikhand";
   font-size: 70px;
@@ -271,7 +276,6 @@ a {
 }
 
 .footerrestau {
-  text-decoration: none;
   font-family: "roboto";
   padding: 25px;
   background-color: white;
@@ -315,6 +319,10 @@ footer {
   margin-top: 0px;
 }
 
+footer a {
+  color: white;
+}
+
 footer .footer__logo {
   font-family: "shrikhand";
   color: white;
@@ -333,5 +341,249 @@ footer .footer__text {
 footer .footer__text .footer__icon {
   display: inline;
   margin-right: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .localisation {
+    font-size: 20px;
+    height: 40px;
+  }
+  .fonctionnement__titre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+  }
+  .fonctionnement .choix {
+    background-color: #f0eeee;
+    padding: 50px 60px;
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 10px #b9b7b7;
+            box-shadow: 10px 10px 10px #b9b7b7;
+    border-radius: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fonctionnement .choix .choix__icon {
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+  .fonctionnement .choix .pastille {
+    color: white;
+    background-color: #9356DC;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -75px;
+    margin-top: -75px;
+  }
+  .fonctionnement .compose {
+    background-color: #f0eeee;
+    padding: 50px 60px;
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 10px #b9b7b7;
+            box-shadow: 10px 10px 10px #b9b7b7;
+    border-radius: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fonctionnement .compose .compose__icon {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .fonctionnement .compose .pastille {
+    color: white;
+    background-color: #9356DC;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -75px;
+    margin-top: -75px;
+  }
+  .fonctionnement .deguste {
+    background-color: #f0eeee;
+    padding: 50px 60px;
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 10px #b9b7b7;
+            box-shadow: 10px 10px 10px #b9b7b7;
+    border-radius: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fonctionnement .deguste .deguste__icon {
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+  .fonctionnement .deguste .pastille {
+    color: white;
+    background-color: #9356DC;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: -75px;
+    margin-top: -75px;
+  }
+  .titrerestau {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .blocresto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .blocresto .blocresto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .blocresto .blocresto2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 10px;
+  }
+  .blocresto .carterestau {
+    width: 600px;
+  }
+  .blocresto .carterestau .footerrestau {
+    font-size: 20px;
+  }
+  .blocresto .carterestau .footerrestau .titrecarte {
+    font-size: 20px;
+  }
+  .photorestau1 {
+    height: 250px;
+  }
+  .photorestau2 {
+    height: 250px;
+  }
+  .photorestau3 {
+    height: 250px;
+  }
+  .photorestau4 {
+    height: 250px;
+  }
+  footer {
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer__text {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

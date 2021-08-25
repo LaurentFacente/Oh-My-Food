@@ -1,11 +1,13 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 .header__logo {
     font-family: "shrikhand";
     font-size: 70px;
     display: flex;
     justify-content: center;
 }
-
 .localisation {
     font-family: "roboto",sans-serif;
     font-size: 40px;
@@ -18,10 +20,8 @@
     border-top: lightgrey 2px solid;
     .localisation__icon {
         margin-right: 30px;
-    }
-    
+    }  
 }
-
 .presentation {
     background-color: rgb(248, 248, 248);
     height: 550px;
@@ -38,6 +38,7 @@
     .presentation__text2 {
         font-size: 35px;
         padding-top: 25px;
+      
     }
     .presentation__btn {
         
@@ -69,9 +70,6 @@
     font-weight: bolder;
     margin-bottom: 100px;
     margin-top: 70px;
-    
- 
-
     .choix {
         background-color: rgb(240, 238, 238);
         padding: 60px 60px;
@@ -95,9 +93,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: -75px;
-            
-            
+            margin-left: -75px;  
         }
     }
     .compose {
@@ -123,10 +119,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: -75px;
-            
+            margin-left: -75px;  
         }
-
     }
     .deguste {
         background-color:rgb(240, 238, 238);
@@ -151,11 +145,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: -75px;
-            
+            margin-left: -75px;   
         }
     }
-
 }
 
 a {
@@ -179,7 +171,7 @@ a {
     border-radius: 30px;
     color: black;  
     margin: 0 auto;
-    margin-top: 35px;  
+    margin-top: 35px;    
 }
 
 .photorestau1 {
@@ -217,7 +209,6 @@ a {
 }
 
 .footerrestau {
-    text-decoration: none;
     font-family:"roboto";
     padding: 25px;
     background-color: white;
@@ -226,12 +217,14 @@ a {
     justify-content: space-between;
     flex-direction: column;
     font-size: 32px;
+    
     .titrecarte {
     margin: 5px;
     font-size: 35px;
     }
     .textcard{
         padding-left: 5px;
+        
     }
     .cardfooter__icon{
         display: flex;
@@ -245,6 +238,9 @@ footer {
     height: 500px;
     background-color: rgb(77, 77, 77);
     margin-top: 0px;
+    a {
+        color:white;
+    }
     .footer__logo{
         font-family: "shrikhand";
         color: white;
@@ -263,4 +259,178 @@ footer {
         }
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .localisation {
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .fonctionnement__titre{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .fonctionnement {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        font-size: 16px;
+
+        .choix {
+            background-color: rgb(240, 238, 238);
+            padding: 50px 60px ;
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow:  10px 10px 10px  rgb(185, 183, 183);
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            .choix__icon {
+                margin-right: 30px;
+                margin-left: 0px;
+            }
+            .pastille{
+                color: white;
+                background-color: #9356DC;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -75px;
+                margin-top: -75px;
+                 
+            }
+        }
+        .compose {
+            background-color: rgb(240, 238, 238);
+            padding: 50px 60px ;
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow:  10px 10px 10px  rgb(185, 183, 183);
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            .compose__icon {
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+            .pastille{
+                color: white;
+                background-color: #9356DC;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -75px;
+                margin-top: -75px;
+                 
+            }
+
+        }
+        .deguste {
+            background-color: rgb(240, 238, 238);
+            padding: 50px 60px ;
+            width: 200px;
+            height: 10px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow:  10px 10px 10px  rgb(185, 183, 183);
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            .deguste__icon {
+                margin-right: 20px;
+                margin-left: 0px;
+            }
+            .pastille{
+                color: white;
+                background-color: #9356DC;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: -75px;
+                margin-top: -75px;
+                 
+            }
+        }
+    }
+    .titrerestau{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 50px;
+
+    }
+    .blocresto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .blocresto1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;  
+        }
+        .blocresto2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .carterestau{
+            width: 600px;
+            .footerrestau {
+                font-size: 20px;    
+                .titrecarte{
+                    font-size: 20px;
+                }
+            }
+        } 
+    } 
+    .photorestau1{
+        height: 250px;
+    }
+    .photorestau2{
+        height: 250px;
+    }
+    .photorestau3{
+        height: 250px;
+    }
+    .photorestau4{
+        height: 250px;
+    }
+    footer {
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .footer__text {
+            font-size: 20px; 
+        }
+    }
 }
