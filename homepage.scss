@@ -230,6 +230,8 @@ a {
     color: black;  
     margin: 0 auto;
     margin-top: 35px; 
+    
+    
     .carterestau__new {
         font-family: "roboto";
         font-weight: bold;
@@ -246,7 +248,8 @@ a {
         margin-top: 40px;
         @media screen and (min-width: 1024px){
             font-size: 12px;
-            width: 40px;  
+            width: 30px;  
+            
         } 
     }   
 }
