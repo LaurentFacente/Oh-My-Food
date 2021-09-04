@@ -7,6 +7,9 @@ body{
     font-size: 70px;
     display: flex;
     justify-content: center;
+    @media screen and (min-width: 1024px){
+        font-size: 30px;  
+    } 
 }
 .localisation {
     font-family: "roboto",sans-serif;
@@ -27,7 +30,9 @@ body{
     height: 550px;
     font-family: "roboto";
     text-align: center;
-    
+    @media screen and (min-width: 1024px){
+        height: 400px;  
+    } 
     .presentation__text1 {
         font-size: 50px;
         font-weight: bolder;
@@ -35,15 +40,21 @@ body{
         display: flex;
         padding-top: 80px;
         word-wrap: break-word;
+        @media screen and (min-width: 1024px){
+            font-size: 30px;  
+        } 
+        
     }
     .presentation__text2 {
         font-size: 40px;
         padding-top: 25px;
         word-wrap: break-word;
-      
+        @media screen and (min-width: 1024px){
+            font-size: 25px;  
+        } 
+        
     }
     .presentation__btn {
-        
         font-size: 35px;
         background-image:linear-gradient(to right,#FF79DA, #9356DC);
         color: white;
@@ -56,8 +67,14 @@ body{
         margin-top: 50px;
         margin-bottom: 40px;
         box-shadow:  10px 10px 10px  rgb(185, 183, 183); 
+            @media screen and (min-width: 1024px){
+                font-size: 16px;  
+                padding: 30px 0px;
+                width: 300px;
+            } 
+        }
     }
-}
+
 .fonctionnement__titre {
     font-family: "roboto";   
     font-size: 45px;
@@ -196,6 +213,9 @@ a {
     background-color: rgb(248, 248, 248);
     padding-top: 40px;
     padding-bottom: 150px;
+    @media screen and (min-width: 1024px){
+        padding-top: 0px;  
+    } 
 }
 .titrerestau {
     font-family:"roboto";
@@ -211,19 +231,23 @@ a {
     margin: 0 auto;
     margin-top: 35px; 
     .carterestau__new {
-    font-family: "roboto";
-    font-weight: bold;
-    font-size: 35px;
-    color: rgb(21, 138, 83);
-    padding: 15px 50px 15px 50px;
-    width: 100px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    background-color: #99E2D0;
-    margin-left: 630px;
-    position: absolute;
-    margin-top: 40px;
+        font-family: "roboto";
+        font-weight: bold;
+        font-size: 35px;
+        color: rgb(21, 138, 83);
+        padding: 15px 50px 15px 50px;
+        width: 100px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        background-color: #99E2D0;
+        margin-left: 70%;
+        position: absolute;
+        margin-top: 40px;
+        @media screen and (min-width: 1024px){
+            font-size: 12px;
+            width: 40px;  
+        } 
     }   
 }
 
@@ -290,7 +314,7 @@ a {
 }
 
 footer {
-    height: 500px;
+    height: 200px;
     background-color: rgb(77, 77, 77);
     margin-top: 0px;
     a {
@@ -486,7 +510,7 @@ footer {
         height: 250px;
     }
     footer {
-        height: 250px;
+        height: 200px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;

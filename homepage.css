@@ -14,6 +14,12 @@ body {
           justify-content: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .header__logo {
+    font-size: 30px;
+  }
+}
+
 .localisation {
   font-family: "roboto",sans-serif;
   font-size: 40px;
@@ -43,6 +49,12 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .presentation {
+    height: 400px;
+  }
+}
+
 .presentation .presentation__text1 {
   font-size: 50px;
   font-weight: bolder;
@@ -56,10 +68,22 @@ body {
   word-wrap: break-word;
 }
 
+@media screen and (min-width: 1024px) {
+  .presentation .presentation__text1 {
+    font-size: 30px;
+  }
+}
+
 .presentation .presentation__text2 {
   font-size: 40px;
   padding-top: 25px;
   word-wrap: break-word;
+}
+
+@media screen and (min-width: 1024px) {
+  .presentation .presentation__text2 {
+    font-size: 25px;
+  }
 }
 
 .presentation .presentation__btn {
@@ -81,6 +105,14 @@ body {
   margin-bottom: 40px;
   -webkit-box-shadow: 10px 10px 10px #b9b7b7;
           box-shadow: 10px 10px 10px #b9b7b7;
+}
+
+@media screen and (min-width: 1024px) {
+  .presentation .presentation__btn {
+    font-size: 16px;
+    padding: 30px 0px;
+    width: 300px;
+  }
 }
 
 .fonctionnement__titre {
@@ -272,6 +304,12 @@ a {
   padding-bottom: 150px;
 }
 
+@media screen and (min-width: 1024px) {
+  .restaurants {
+    padding-top: 0px;
+  }
+}
+
 .titrerestau {
   font-family: "roboto";
   font-size: 40px;
@@ -304,9 +342,16 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #99E2D0;
-  margin-left: 630px;
+  margin-left: 70%;
   position: absolute;
   margin-top: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .carterestau .carterestau__new {
+    font-size: 12px;
+    width: 40px;
+  }
 }
 
 .photorestau1 {
@@ -386,7 +431,7 @@ a {
 }
 
 footer {
-  height: 500px;
+  height: 200px;
   background-color: #4d4d4d;
   margin-top: 0px;
 }
@@ -650,7 +695,7 @@ footer .footer__text .footer__icon {
     height: 250px;
   }
   footer {
-    height: 250px;
+    height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
