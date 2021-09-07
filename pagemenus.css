@@ -44,6 +44,59 @@ a {
   }
 }
 
+.cardfooter__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: -20px;
+  margin-right: 30px;
+  opacity: 0.4;
+}
+
+.cardfooter__icon:hover {
+  color: #FF79DA;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  opacity: 1;
+}
+
+.cardfooter__icon--pink {
+  color: #FF79DA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.cardfooter__icon--pink:hover {
+  color: #FF79DA;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  opacity: 1;
+}
+
+.cardfooter__icon:hover .cardfooter__icon--pink {
+  color: #FF79DA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  opacity: 1;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
 .header__return {
   font-size: 45px;
   margin-left: 40px;
@@ -305,6 +358,150 @@ footer .footer__text .footer__icon {
   }
   footer .footer__text {
     font-size: 20px;
+  }
+}
+
+.entrées {
+  animation: glissement 4s;
+  -moz-animation: glissement 4s;
+  /* Firefox */
+  -webkit-animation: glissement 4s;
+  /* Safari et Chrome */
+  -o-animation: glissement 4s;
+  /* Opera */
+}
+
+@-webkit-keyframes glissement {
+  from {
+    margin-top: 100%;
+    width: 30%;
+  }
+  to {
+    margin-top: 0%;
+    width: 30%;
+  }
+}
+
+@keyframes glissement {
+  from {
+    margin-top: 100%;
+    width: 30%;
+  }
+  to {
+    margin-top: 0%;
+    width: 30%;
+  }
+}
+
+.plats {
+  animation: glissement 6s;
+  -moz-animation: glissement 6s;
+  /* Firefox */
+  -webkit-animation: glissement 6s;
+  /* Safari et Chrome */
+  -o-animation: glissement 6s;
+  /* Opera */
+}
+
+@keyframes glissement {
+  from {
+    margin-top: 100%;
+    width: 30%;
+  }
+  to {
+    margin-top: 0%;
+    width: 30%;
+  }
+}
+
+.desserts {
+  animation: glissement 8s;
+  -moz-animation: glissement 8s;
+  /* Firefox */
+  -webkit-animation: glissement 8s;
+  /* Safari et Chrome */
+  -o-animation: glissement 8s;
+  /* Opera */
+}
+
+@keyframes glissement {
+  from {
+    margin-top: 100%;
+    width: 30%;
+  }
+  to {
+    margin-top: 0%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .entrées {
+    animation: glissement 4s;
+    -moz-animation: glissement 4s;
+    /* Firefox */
+    -webkit-animation: glissement 4s;
+    /* Safari et Chrome */
+    -o-animation: glissement 4s;
+    /* Opera */
+  }
+  @-webkit-keyframes glissement {
+    from {
+      margin-top: 100%;
+      width: 100%;
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes glissement {
+    from {
+      margin-top: 100%;
+      width: 100%;
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+  .plats {
+    animation: glissement 6s;
+    -moz-animation: glissement 6s;
+    /* Firefox */
+    -webkit-animation: glissement 6s;
+    /* Safari et Chrome */
+    -o-animation: glissement 6s;
+    /* Opera */
+  }
+  @keyframes glissement {
+    from {
+      margin-top: 100%;
+      width: 100%;
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+  .desserts {
+    animation: glissement 8s;
+    -moz-animation: glissement 8s;
+    /* Firefox */
+    -webkit-animation: glissement 8s;
+    /* Safari et Chrome */
+    -o-animation: glissement 8s;
+    /* Opera */
+  }
+  @keyframes glissement {
+    from {
+      margin-top: 100%;
+      width: 100%;
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
   }
 }
 /*# sourceMappingURL=pagemenus.css.map */

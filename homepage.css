@@ -435,8 +435,6 @@ a {
   color: #FF79DA;
   -webkit-transition: opacity 2s ease-in-out;
   transition: opacity 2s ease-in-out;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
   opacity: 1;
 }
 
@@ -450,12 +448,13 @@ a {
           justify-content: flex-end;
   display: none;
   position: absolute;
+  opacity: 0;
 }
 
 .cardfooter__icon--pink:hover {
   color: #FF79DA;
-  -webkit-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
   opacity: 1;
 }
 
