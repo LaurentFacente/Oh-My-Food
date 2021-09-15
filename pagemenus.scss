@@ -133,7 +133,7 @@ a{
     padding-bottom: 30px;
     overflow: hidden;
     position:relative;
-    cursor: pointer;
+    
     
     @media screen and (min-width: 1024px){
         width: 80%;
@@ -173,19 +173,32 @@ a{
 
 .text1{
     font-family: "roboto";
-    font-size: 35px;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    
     @media screen and (min-width: 1024px){
-        font-size: 16px;
+        font-size: 18px;
     }
+    
 }
 
 .text2{
     font-family: "roboto";
-    font-size: 30px;
+    font-size: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+   
+    
     @media screen and (min-width: 1024px){
-        font-size: 12px;
+        font-size: 15px;
         
     }
 }
@@ -207,11 +220,11 @@ a{
     font-size: 35px;
     color: #ffffff;
     display: flex;
-    width: 100%;
+    width: 200%;
     height: 85px;
     display: none;  
-    transition: transform;
-    transition-duration: 2s;
+    transition: transform ease-in-out;
+    transition-duration: 1s;
     justify-content: center;
     align-items: center;
     margin-left: -35px;
@@ -227,14 +240,12 @@ a{
         justify-content: center;
         align-items: center;
         margin-left: -35px;
-    
-    
-    }
-    
+    }   
 }
 
 .icon__check:hover{
     transform: rotate(360deg);
+ 
 }
 .icon__background{
     background-color: #99E2D0;
@@ -250,8 +261,8 @@ a{
         background-color: #99E2D0;
         float: right;
         width: 25%;
-        height: 85px;
-        margin-top: -57px;
+        height: 86px;
+        margin-top: -65px;
         display: none;
         justify-content: center;
         align-items: center;
@@ -265,7 +276,6 @@ a{
     overflow: hidden;
     animation-fill-mode: forwards;
     
-
     @keyframes margin-right {
         from {
             margin-right: -120px; 
@@ -275,6 +285,19 @@ a{
             margin-right: -35px;
           }
     }
+} 
+
+.plat__btn:hover .text1{
+    
+   
+    width: 60%;
+    
+} 
+.plat__btn:hover .text2{
+    
+    
+    width: 60%;
+    
 } 
 
 .command__btn {
